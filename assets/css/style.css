@@ -16,6 +16,9 @@
     background-color: #525252;
 }
 
+.background-color-three-reasons{
+    background-color: #fff;
+}
 /*----------Special paddings/margins/text*/
 
 h1,h2,h3,h4 {
@@ -105,6 +108,26 @@ background-repeat: no-repeat;
     font-weight: 300;
     letter-spacing: 2px ;
 }
+/*----------general styles*/
+
+.rowtable {
+    display: table;
+
+}
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+
+}
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
 /*----------Footer*/
 .cv-pdf i {
     font-size: 18px;
@@ -155,6 +178,7 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
 /*----------Hover css*/
 
 .hvr-sweep-to-bottom:before{
