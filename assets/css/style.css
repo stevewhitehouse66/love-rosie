@@ -19,6 +19,9 @@
 .background-color-three-reasons{
     background-color: #fff;
 }
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
 /*----------Special paddings/margins/text*/
 
 h1,h2,h3,h4 {
@@ -184,4 +187,14 @@ footer {
 .hvr-sweep-to-bottom:before{
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*----------Three Raasons*/
+
+.three-reasons-icon {
+    font-size:  26px;
+    color: #e67e22;
+}
+.three-reasons-heading{
+    margin-bottom: 15px;
 }
